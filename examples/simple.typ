@@ -6,6 +6,7 @@
 + easy
 + beautiful"
 
+#getExample(code)
 #getExample(code,merge_handler: mergeRow)
 #getExample(code,merge_handler: mergeColumn)
 #getExample(code,merge_handler: coloredMerge)
