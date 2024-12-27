@@ -1,0 +1,7 @@
+[package]
+name = "typst-selfexample"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["wznmickey"]
+license = "MIT"
+description = "A typst package that will eval your typst command together with itself as a raw block."
