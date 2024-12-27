@@ -6,14 +6,14 @@
   code
 }
 #let mergeColumn(raw, eval) = {
-  grid(columns:(1fr,1fr))[#raw][#eval]
+  grid(columns:(1fr,1fr),gutter:10pt)[#raw][#eval]
 }
 #let mergeRow(raw, eval) = {
   raw
   eval
 }
 #let coloredMerge(raw, eval) = {
-  grid(columns:(1fr,1fr))[#code(raw)][#example(eval)]
+  grid(columns:(1fr,1fr),gutter:10pt)[#code(raw)][#example(eval)]
   
 }
 #let codlyRaw(code) ={
