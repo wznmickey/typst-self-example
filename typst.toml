@@ -2,6 +2,6 @@
 name = "self-example"
 version = "0.1.0"
 entrypoint = "lib.typ"
-authors = ["wznmickey"]
+authors = ["Zining Wang <https://github.com/wznmickey/>"]
 license = "MIT"
 description = "A typst package that will eval your typst command together with itself as a raw block."
