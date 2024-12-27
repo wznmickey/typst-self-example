@@ -1,4 +1,4 @@
-#import "@preview/gentle-clues:1.1.0": *
+
 #let defaultRaw(code) = {
   code
 }
@@ -13,11 +13,9 @@
   eval
 }
 #let coloredMerge(raw, eval) = {
+  import "@preview/gentle-clues:1.1.0": *
   grid(columns:(1fr,1fr),gutter:10pt)[#code(raw)][#example(eval)]
   
-}
-#let codlyRaw(code) ={
-
 }
 #let defaultMerge = mergeColumn;
 #let getExamplePair(code) = {
